@@ -1,0 +1,40 @@
+db.ui_user_count.insert({
+    type : "Daily trend",
+    details : [
+                {
+                    day : "Monday",
+                    anomaly_count_ip :NumberInt(40) ,
+                    anomaly_count_time : NumberInt(13)
+                }, 
+                {
+                    day : "Tuesday",
+                    anomaly_count_ip : NumberInt(35),
+                    anomaly_count_time : NumberInt(28)
+                },
+		{
+                    day : "Wednesday",
+                    anomaly_count_ip : NumberInt(56),
+                    anomaly_count_time : NumberInt(17)
+                },
+		{
+                    day : "Thursday",
+                    anomaly_count_ip : NumberInt(27),
+                    anomaly_count_time : NumberInt(28)
+                },
+		{
+                    day : "Friday",
+                    anomaly_count_ip : NumberInt(49),
+                    anomaly_count_time :NumberInt(22)
+                },
+		{
+                    day : "Saturday",
+                    anomaly_count_ip : NumberInt(11),
+                    anomaly_count_time :NumberInt(9)
+                },
+		{
+                    day : "Sunday",
+                    anomaly_count_ip : NumberInt(60),
+                    anomaly_count_time :NumberInt(32)
+                },
+            ]
+})
